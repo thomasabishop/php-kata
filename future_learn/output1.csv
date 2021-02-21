@@ -1,0 +1,15 @@
+name                           ,cores ,release_date
+"Apple MacBook Pro"            ,6     ,2019-05-21
+"Apple iMac"                   ,4     ,2019-03-19
+"Raspberry Pi 2 Model B"       ,4     ,2015-02-01
+"Raspberry Pi 3 Model A+"      ,4     ,2018-11-01
+"Raspberry Pi 3 Model B"       ,4     ,2016-02-01
+"Raspberry Pi 3 Model B+"      ,4     ,2018-03-14
+"Raspberry Pi 4 Model B 1GB"   ,4     ,2019-06-24
+"Raspberry Pi 4 Model B 2GB"   ,4     ,2019-06-24
+"Raspberry Pi 4 Model B 4GB"   ,4     ,2019-06-24
+"Apple MacBook Air"            ,2     ,2019-07-09
+"Amiga 500"                    ,1     ,1987-04-01
+"Apple Lisa"                   ,1     ,1983-01-19
+"Commodore 64"                 ,1     ,1982-08-01
+"Commodore VIC-20"             ,1     ,1980-01-01

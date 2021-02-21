@@ -1,0 +1,8 @@
+sale_id|model_id|sale_date|employee_id|price
+1|44|2020-07-27|tbishop|399.99
+2|22|2021-02-07|tbishop|200.99
+sale_id|model_id|sale_date|employee_id|price
+1|44|2020-07-27|tbishop|399.99
+2|22|2021-02-07|tbishop|200.99
+employee      manufacturer  model         returns       sales       
+main: /Volumes/ulysses/Code/php-playground/future_learn/edited_version.db
