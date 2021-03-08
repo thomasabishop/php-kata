@@ -1,6 +1,8 @@
 <?php
 
-function area($unit, $length, $width)
+declare(strict_types=1);
+
+function area(string $unit, int $length, int $width): string
 {
     $area = $length * $width;
     $metres = $area * 0.0929;

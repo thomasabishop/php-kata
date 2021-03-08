@@ -1,0 +1,25 @@
+<style>
+* {
+	font-family: sans-serif;
+}
+.form-layout {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding: 1rem 0;
+}
+</style>
+
+<h2>Enter SF book details</h2>
+<form action="../src/action-handler.php" method="POST">
+	<div class=".form-layout">
+		<input placeholder="Enter author name" type="text" name="author">
+		<input placeholder="Enter book title" type="text" name="title">
+		<input placeholder="Enter rating out of 5" type="number" name="rating">
+		<input placeholder="Enter publication date" type="date" name="pub_date">
+	</div>
+	<div class="form-layout">
+		<input type="submit" />
+		<input type="reset" />
+	</div>
+</form>

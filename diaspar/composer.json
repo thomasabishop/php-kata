@@ -1,0 +1,12 @@
+{
+    "name": "thomasbishop/diaspar",
+    "description": "Practising PHP database basics",
+    "type": "project",
+    "authors": [
+        {
+            "name": "thomasabishop",
+            "email": "tactonbishop@gmail.com"
+        }
+    ],
+    "require": {}
+}

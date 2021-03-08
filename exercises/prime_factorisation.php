@@ -2,7 +2,8 @@
 
 /* 24 is a non-prime number with the prime factors 2 and 3 */
 
-function prime_factorization($n)
+declare(strict_types=1);
+function prime_factorization(int $n): int
 {
     $store = array();
     while ($n % 2 == 0) {
@@ -16,9 +17,10 @@ function prime_factorization($n)
     }
     if ($n > 2) {
         array_push($store, $n);
-    }
+    }
     return max($store);
 }
-var_dump(prime_factorization(600851475143));
+
+print_r(prime_factorization(600851475143));
 
 // int(6857)

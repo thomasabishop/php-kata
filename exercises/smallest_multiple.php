@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 define('DIVISORS', [1, 2, 3, 4, 5, 6, 7, 8, 8, 10]);
 
 function smallest_multiple(int $int): void
@@ -17,4 +18,4 @@ function smallest_multiple(int $int): void
     }
 }
 
-smallest_multiple(2520);
+print_r(smallest_multiple(2520));

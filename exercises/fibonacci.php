@@ -1,5 +1,7 @@
 <?php
-function fibonacci($start, $max_length, $arr)
+
+declare(strict_types=1);
+function fibonacci(int $start, int $max_length, array $arr): float
 {
     $i = $start;
     while (count($arr) < $max_length) {
@@ -15,4 +17,4 @@ function fibonacci($start, $max_length, $arr)
     return $count_even;
 }
 
-echo fibonacci(1, 400, [0,1]);
+echo fibonacci(1, 400, [0, 1]);
